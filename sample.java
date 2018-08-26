@@ -9,3 +9,13 @@ class remo
 		c=a+b;
 	}
 }
+
+public meth1()
+	{	
+		c=a-b;
+	}
+
+public meth2()
+	{	
+		c=a*b;
+	}
