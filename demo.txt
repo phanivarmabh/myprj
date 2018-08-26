@@ -1,0 +1,4 @@
+Class demo
+{
+	printf(" Phani is the owner")
+}
