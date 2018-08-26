@@ -2,3 +2,10 @@ Class demo
 {
 	printf(" Phani is the owner")
 }
+========Docker file=====================
+	FROM ubuntu
+	MAINTAINER phani
+	RUN apt-get update
+	RUN apt-get tomcat:8.0 -y
+	CMD ["service", "tomcat:8.0", "start"]
+	EXPOSE 8080
